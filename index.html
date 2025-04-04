@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portafolio</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jesus Tamarez</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Proyectos</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hola,<br>Soy  <span class="home__title-color">Jesus Tamarez,</span><br> FRONT-END <br>DEVELOPER.</h1>
+
+                    <a href="#" class="button">Contacto</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/susjedev/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://discord.com/users/_svxf" class="home__social-icon"><i class='bx bxl-discord' ></i></a>
+                    <a href="https://github.com/Svsje" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <a><img src="assets/img/perfil.png" alt="" class="img__logo"></a>
+                </div>
+            </section>
+
+            
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre mi</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.png" alt="" class="img__about">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Sobre mi</h2>
+                        <p class="about__text">
+                            Me especializo en crear interfaces modernas y accesibles, centrándome en la experiencia del usuario y el diseño intuitivo. Mi objetivo es desarrollar aplicaciones web rápidas, responsivas y visualmente atractivas, garantizando una navegación fluida en cualquier dispositivo. Además, me esfuerzo por aplicar buenas prácticas de desarrollo, optimización de rendimiento y accesibilidad web, asegurando que mis proyectos sean inclusivos y funcionales para todos los usuarios.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Nombre" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <input type="text" placeholder="Asunto" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__title">Jesus Tamarez</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/susjedev/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://github.com/Svsje" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; SusjeDev. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
