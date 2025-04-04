@@ -221,15 +221,10 @@ img {
 }
 
 .img__logo{
-  position: relative;
-  top: -100px;
-  left: 60px;
-  width: 300px;
-  height: 400px;
   background-color: var(--first-color);
   border-radius: 50%;
-
 }
+
 
 .img__about{
   position: relative;
