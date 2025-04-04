@@ -150,14 +150,11 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
+
 .nav__logo {
   color: var(--second-color);
 }
-.img__susjedev{
 
-  width: 10px;
-  height: 100px;
-}
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
@@ -225,7 +222,10 @@ img {
 
 .img__logo{
   position: relative;
-  left: 10px;
+  top: -100px;
+  left: 60px;
+  width: 300px;
+  height: 400px;
   background-color: var(--first-color);
   border-radius: 50%;
 
