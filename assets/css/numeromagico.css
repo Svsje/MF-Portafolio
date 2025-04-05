@@ -1,0 +1,104 @@
+:root{
+    --primary-color: black;
+    --second-color: white;
+    --third-color: crimson;
+
+    --font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .container {
+    background-color: var(--second-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: var(--third-color);
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: var(--third-color);
+    outline: none;
+  }
+  
+  button {
+    background-color: var(--third-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: var(--primary-color);
+  }
+  
+  /* Mensajes */
+  #mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--third-color);
+  }
+  
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    input[type="number"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    #mensaje {
+      font-size: 16px;
+    }
+  }
+  

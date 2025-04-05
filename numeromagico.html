@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/fuegosartificiales.css">
+    <link rel="stylesheet" href="assets/css/numeromagico.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+
+
+    <div class="container">
+        <h1>Juego: Número Magico </h1>
+      
+        <form id="formPlay">
+          <input type="number" id="numeroIngresado" placeholder="Ingresa un número del 1 al 10"  required>
+          <button type="submit">Intentar</button>
+        </form>
+      
+        <button onclick="nuevoJuego()">Nuevo Juego</button>
+      
+        <div id="mensaje"></div>
+        <div id="fireworks-container"></div>
+      </div>
+      
+<audio id="fail" src="assets/sounds/incorrecto.mp3"></audio>
+<audio id="win" src="assets/sounds/acertaste.mp3"></audio>
+
+<script src="https://unpkg.com/fireworks-js@2.1.1/dist/fireworks.js"></script>
+
+<!--Scripts-->
+</body>
+<script src="assets/js/numeromagico.js"></script>
+</html>
