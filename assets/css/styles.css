@@ -293,6 +293,50 @@ img {
   margin-left: auto;
 }
 
+
+/* Contenedor del submenú */
+.nav__item--has-submenu {
+  position: relative;
+}
+
+/* Ocultar submenú por defecto */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  z-index: 100;
+}
+
+/* Estilo de cada ítem del submenú */
+.submenu li {
+  padding: 0;
+}
+
+.submenu__link {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.submenu__link:hover {
+  background-color: #f0f0f0;
+}
+
+/* Mostrar submenú al hacer hover */
+.nav__item--has-submenu:hover .submenu {
+  display: inline-block;
+}
+
+
+
 /*footer*/
 .footer {
   background-color: var(--second-color);
