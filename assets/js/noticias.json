@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "titulo": "Primera Noticia",
+      "descripcion": "Resumen corto de la primera noticia.",
+      "imagen": "img/noticia1.jpg",
+      "contenido": "Este es el contenido completo de la primera noticia."
+    },
+    {
+      "id": 2,
+      "titulo": "Segunda Noticia",
+      "descripcion": "Resumen corto de la segunda noticia.",
+      "imagen": "img/noticia2.jpg",
+      "contenido": "Este es el contenido completo de la segunda noticia."
+    }
+  ]
+  
